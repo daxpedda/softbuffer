@@ -62,7 +62,8 @@ cfg_aliases = "0.1.1"
 
 [dev-dependencies]
 instant = "0.1.12"
-winit = "0.27.2"
+#winit = "0.27.2"
+winit = { git = "https://github.com/rust-windowing/winit" }
 
 [dev-dependencies.image]
 version = "0.23.14"
